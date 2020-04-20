@@ -1,16 +1,16 @@
-AutoRenalCyst_MR
+AutoKidneyCyst
 ==========================
 
-The "AutoRenalCyst_MR" package consists of image processing tools to facilitate cystic organ research. An automated segmentation approach for follow-up MRIs of PKD patients is implemented in the AutoRegSegTKV source code. This software is made available so that it may be of use to the scientific and clinical communities. The source codes can be run independently from the command line, or run from the viewer.
-
-Also included are methods for preprocessing of MRI scans for intra- and inter-slice intensity correction, as well as inter-slice motion (corrections for interleaved/multiple breath-hold acquisitions).
+The "AutoKidneyCyst" package consists of the source code for the research study, "Automatic Semantic Segmentation of Kidney Cysts in MR Images of Patients Affected by Autosomal Dominant Polycystic Kidney Disease." The study developed a fully automated tool for measurement of cyst volumes from MR images of patients affected by ADPKD. This software is made available so that it may be of use to the scientific and clinical communities. The source codes can be run independently from the command line.
 
 References
 -----------
 
-Kline TL, Edwards ME, Korfiatis P, Akkus Z, Torres VE, Erickson BJ. Semiautomated segmentation of polycystic kidneys in T2-weighted MR images. Am J Roentgen. 207:1-9, 2016.
+VGG-like architecture from:
+Kline TL, Korfiatis P, Edwards ME, Blais J, Czerwiec F, Harris PC, King BF, Torres VE, Erickson BJ. Performance of an artificial multi-observer deep neural network for fully automated segmentation of polycystic kidneys. J Digit Imaging. 30(4):442-448, 2017.
 
-Kline TL, Korfiatis P, Edwards ME, Warner JD, Irazabal MV, King BF, Torres VE, Erickson BJ. Automatic total kidney volume measurement on follow-up magnetic resonance image to facilitate monitoring of ADPKD progression. Nephrol Dial Transplant. 31(2):241-248, 2016.
+Inception block architecture from:
+Van Gastel MDA, Edwards ME, Torres VE, Erickson BJ, Gansevoort, RT. Kline TL. Automatic measurement of kidney and liver volumes from MR images of patients affected by autosomal dominant polycystic kidney disease. J Am Soc Nephrol. 30(8):1514-1522, 2019. 
 
 
 Maintainers
